@@ -1,0 +1,99 @@
+body {
+ font-size:2rem;
+}
+
+#control input {
+    width: 100px;
+    height: 30px;
+}
+
+header{
+    text-align :center;
+}
+header button{
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    top: 10px;
+    right: 10px;
+    background-color: coral;
+    color: blue;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+nav > h4{
+    margin: 0;
+}
+nav > ol{
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;    
+    justify-content: center;
+    align-items: center;
+}
+
+#control {
+    text-align: center;
+}
+
+#control ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;    
+}
+
+#control a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#control a:hover{
+    background-color: yellowgreen;
+}
+#control input:hover{
+    text-decoration: none;
+    background-color: red;
+
+}
+
+#articleRead {
+    text-align: center;
+}
+
+#modify{
+    text-align: center;
+
+}
+#modify input, textarea{
+    width: 300px;
+    height: 30px;
+    
+}
+
+#create{
+    text-align: center;
+}
+
+#create input, textarea{
+    width: 300px;
+    height: 30px;
+}
+#welcome{
+    text-align: center;
+}
+
+
+
+
+
+
+
+    

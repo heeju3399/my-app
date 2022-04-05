@@ -1,0 +1,130 @@
+body {
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    
+    .reduxPage{
+        margin: 5px;        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 1px solid wheat;
+        background-color: wheat;
+        border-radius: 20px;
+        a{
+            color: black;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            &:hover{
+                background-color: aqua;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .reactPage{ 
+    margin: 10px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+
+    }
+}
+
+.react-redux {
+    border: 5px solid black;
+    margin: 10px;
+    color: 764abc;
+    padding: 5px;
+    div {
+        border: 5px solid black;
+        margin: 10px;
+        padding: 5px;
+        color: 764abc;
+    }
+}
+
+
+nav {
+    ol {
+        padding-left: 0px;
+
+        li {
+            list-style: none;
+            //text-align: center;
+            background-color: brown;
+            margin: 5px;
+            border-radius: 10px;
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 40px;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        input {
+            width: 90%;
+        }
+
+        textarea {
+            width: 90%;
+        }
+
+        P {
+            input {
+                width: 100px;
+            }
+        }
+    }
+
+}
+
+ul {
+    li {
+        margin: 5px;
+        background-color: red;
+
+        div {
+            &:hover {
+                cursor: pointer;
+            }
+
+            color: white;
+            background-color: teal;
+        }
+    }
+}
+
+footer {
+    margin: 100px;
+}
+

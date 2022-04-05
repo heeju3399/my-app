@@ -1,0 +1,108 @@
+body {
+  padding: 10px;
+}
+
+header {
+  text-align: center;
+}
+header .reduxPage {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid wheat;
+  background-color: wheat;
+  border-radius: 20px;
+}
+header .reduxPage a {
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+header .reduxPage a:hover {
+  background-color: aqua;
+  border-radius: 20px;
+}
+header .reactPage {
+  margin: 10px;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 20px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.react-redux {
+  border: 5px solid black;
+  margin: 10px;
+  color: 764abc;
+  padding: 5px;
+}
+.react-redux div {
+  border: 5px solid black;
+  margin: 10px;
+  padding: 5px;
+  color: 764abc;
+}
+
+nav ol {
+  padding-left: 0px;
+}
+nav ol li {
+  list-style: none;
+  background-color: brown;
+  margin: 5px;
+  border-radius: 10px;
+}
+nav ol li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+article form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+article form input {
+  width: 90%;
+}
+article form textarea {
+  width: 90%;
+}
+article form P input {
+  width: 100px;
+}
+
+ul li {
+  margin: 5px;
+  background-color: red;
+}
+ul li div {
+  color: white;
+  background-color: teal;
+}
+ul li div:hover {
+  cursor: pointer;
+}
+
+footer {
+  margin: 100px;
+}
+
+/*# sourceMappingURL=App.css.map */
